@@ -1,7 +1,10 @@
-import Link from 'next/link';
-import React from 'react';
+"use client";
+import Link from "next/link";
+import { usePathname } from "next/navigation";
+import React from "react";
 
 const Navbar = () => {
+  const pathname = usePathname();
   return (
     <div>
       <div className="navbar bg-base-100">
@@ -28,13 +31,34 @@ const Navbar = () => {
               className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
             >
               <li>
-                <Link href="/">Home</Link>
+                <Link
+                  className={`link ${
+                    pathname === "/" ? "text-[#0bbe97]" : "text-[#777]"
+                  }`}
+                  href="/"
+                >
+                  Home
+                </Link>
               </li>
               <li>
-                <Link href="/about">About</Link>
+                <Link
+                  className={`link ${
+                    pathname === "/about" ? "text-[#0bbe97]" : "text-[#777]"
+                  }`}
+                  href="/about"
+                >
+                  About
+                </Link>
               </li>
               <li>
-                <Link href="/projects">Projects</Link>
+                <Link
+                  className={`link ${
+                    pathname === "/projects" ? "text-[#0bbe97]" : "text-[#777]"
+                  }`}
+                  href="/projects"
+                >
+                  Projects
+                </Link>
               </li>
             </ul>
           </div>
@@ -43,18 +67,41 @@ const Navbar = () => {
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
             <li>
-              <Link href="/">Home</Link>
+              <Link
+                className={`link ${
+                  pathname === "/" ? "text-[#0bbe97]" : "text-[#777]"
+                }`}
+                href="/"
+              >
+                Home
+              </Link>
             </li>
             <li>
-              <Link href="/about">About</Link>
+              <Link
+                className={`link ${
+                  pathname === "/about" ? "text-[#0bbe97]" : "text-[#777]"
+                }`}
+                href="/about"
+              >
+                About
+              </Link>
             </li>
             <li>
-              <Link href="/projects">Projects</Link>
+              <Link
+                className={`link ${
+                  pathname === "/projects" ? "text-[#0bbe97]" : "text-[#777]"
+                }`}
+                href="/projects"
+              >
+                Projects
+              </Link>
             </li>
           </ul>
         </div>
         <div className="navbar-end">
-          <Link href="/contact">Contact</Link>
+          <Link className=" text-black bg-[#27cea4] px-6 py-2 rounded-3xl" href="/contact">
+            Contact
+          </Link>
         </div>
       </div>
     </div>
