@@ -34,7 +34,7 @@ const Navbar = () => {
                 <Link
                   className={`link ${
                     pathname === "/" ? "text-[#0bbe97]" : "text-[#777]"
-                  }`}
+                  } no-underline`}
                   href="/"
                 >
                   Home
@@ -44,7 +44,7 @@ const Navbar = () => {
                 <Link
                   className={`link ${
                     pathname === "/about" ? "text-[#0bbe97]" : "text-[#777]"
-                  }`}
+                  } no-underline`}
                   href="/about"
                 >
                   About
@@ -54,7 +54,7 @@ const Navbar = () => {
                 <Link
                   className={`link ${
                     pathname === "/projects" ? "text-[#0bbe97]" : "text-[#777]"
-                  }`}
+                  } no-underline`}
                   href="/projects"
                 >
                   Projects
@@ -65,12 +65,12 @@ const Navbar = () => {
           <a className="btn btn-ghost text-xl">daisyUI</a>
         </div>
         <div className="navbar-center hidden lg:flex">
-          <ul className="menu menu-horizontal px-1">
+          <ul className="menu menu-horizontal px-1 ">
             <li>
               <Link
                 className={`link ${
                   pathname === "/" ? "text-[#0bbe97]" : "text-[#777]"
-                }`}
+                } no-underline`}
                 href="/"
               >
                 Home
@@ -80,7 +80,7 @@ const Navbar = () => {
               <Link
                 className={`link ${
                   pathname === "/about" ? "text-[#0bbe97]" : "text-[#777]"
-                }`}
+                } no-underline `}
                 href="/about"
               >
                 About
@@ -90,7 +90,7 @@ const Navbar = () => {
               <Link
                 className={`link ${
                   pathname === "/projects" ? "text-[#0bbe97]" : "text-[#777]"
-                }`}
+                } no-underline`}
                 href="/projects"
               >
                 Projects
@@ -99,7 +99,10 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="navbar-end">
-          <Link className=" text-black bg-[#27cea4] px-6 py-2 rounded-3xl" href="/contact">
+          <Link
+            className=" text-black no-underline bg-[#27cea4] px-6 py-2 rounded-3xl"
+            href="/contact"
+          >
             Contact
           </Link>
         </div>
