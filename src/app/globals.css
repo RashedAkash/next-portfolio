@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-ul {
+ul,p {
   font-family: var(--font-inter);
 }
  
