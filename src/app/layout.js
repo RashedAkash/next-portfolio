@@ -1,6 +1,7 @@
 import { Inter, Roboto_Mono } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 
 export const inter = Inter({
   subsets: ["latin"],
@@ -23,6 +24,7 @@ export default function RootLayout({ children }) {
       <body className={`${inter.variable} ${roboto_mono.variable}`}>
         <Navbar />
         <div className=" max-w-5xl mx-auto">{children}</div>
+        <Footer />
       </body>
     </html>
   );
