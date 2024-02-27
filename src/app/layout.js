@@ -20,7 +20,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="en" data-theme="light">
       <body className={`${inter.variable} ${roboto_mono.variable}`}>
         <Navbar />
         <div className=" max-w-5xl mx-auto">{children}</div>

@@ -4,15 +4,13 @@ const Contact = () => {
   return (
     <div>
       <div>
-        <div className=" text-center mt-10">
-          
-        </div>
+        <div className=" text-center mt-10"></div>
         <div>
           <section className="">
             <div className="container px-6 py-12 mx-auto">
               <div className="lg:flex lg:items-center lg:-mx-6">
                 <div className="lg:w-1/2 lg:mx-6">
-                  <h1 className="text-2xl font-semibold text-gray-800 capitalize dark:text-white lg:text-3xl">
+                  <h1 className="text-2xl font-semibold text-gray-800 capitalize dark:text-text-[#000] lg:text-3xl">
                     Contact us for <br /> more info
                   </h1>
 
@@ -38,7 +36,7 @@ const Contact = () => {
                         />
                       </svg>
 
-                      <span className="mx-2 text-gray-700 truncate w-72 dark:text-gray-400">
+                      <span className="mx-2 text-[#000] truncate w-72 ">
                         Satkhira,Khulna,Bangladesh.
                       </span>
                     </p>
@@ -59,7 +57,7 @@ const Contact = () => {
                         />
                       </svg>
 
-                      <span className="mx-2 text-gray-700 truncate w-72 dark:text-gray-400">
+                      <span className="mx-2 text-gray-700 truncate w-72 dark:text-[#000]">
                         (+880) 1521-787-495
                       </span>
                     </p>
@@ -80,20 +78,20 @@ const Contact = () => {
                         />
                       </svg>
 
-                      <span className="mx-2 text-gray-700 truncate w-72 dark:text-gray-400">
+                      <span className="mx-2 text-gray-700 truncate w-72 dark:text-[#000]">
                         rashedhossain416400@gmail.com
                       </span>
                     </p>
                   </div>
 
                   <div className="mt-6 w-80 md:mt-8">
-                    <h3 className="text-pink-600 dark:text-pink-700 text-xl ">
+                    <h3 className="text-pink-600 dark:text-pink-700 font-bold text-xl ">
                       Follow me
                     </h3>
 
                     <div className="flex mt-4 -mx-1.5 ">
                       <a
-                        className="mx-1.5 dark:hover:text-pink-700 text-gray-400 transition-colors duration-300 transform hover:text-blue-500"
+                        className="mx-1.5 dark:hover:text-pink-700  transition-colors duration-300 transform hover:text-blue-500"
                         href="https://github.com/RashedAkash"
                       >
                         <svg
@@ -106,7 +104,7 @@ const Contact = () => {
                       </a>
 
                       <a
-                        className="mx-1.5 dark:hover:text-pink-700 text-gray-400 transition-colors duration-300 transform hover:text-blue-500"
+                        className="mx-1.5 dark:hover:text-pink-700  transition-colors duration-300 transform hover:text-blue-500"
                         href="https://www.linkedin.com/in/rashed-hossain-1845762a4/"
                       >
                         <svg
@@ -131,7 +129,7 @@ const Contact = () => {
                       </a>
 
                       <a
-                        className="mx-1.5 dark:hover:text-pink-700 text-gray-400 transition-colors duration-300 transform hover:text-blue-500"
+                        className="mx-1.5 dark:hover:text-pink-700  transition-colors duration-300 transform hover:text-blue-500"
                         href=""
                       >
                         <svg
@@ -148,7 +146,7 @@ const Contact = () => {
                       </a>
 
                       <a
-                        className="mx-1.5 dark:hover:text-pink-700 text-gray-400 transition-colors duration-300 transform hover:text-blue-500"
+                        className="mx-1.5 dark:hover:text-pink-700  transition-colors duration-300 transform hover:text-blue-500"
                         href="#"
                       >
                         <svg
@@ -169,42 +167,42 @@ const Contact = () => {
 
                 <div className="mt-8 lg:w-1/2 lg:mx-6">
                   <div className="w-full px-8 py-10 mx-auto overflow-hidden  rounded-lg shadow-2xl  lg:max-w-xl shadow-gray-300/50 dark:shadow-black/50">
-                    <h1 className="text-xl font-medium text-pink-700">
+                    <h1 className="text-xl font-bold text-pink-700">
                       What do you want to ask?
                     </h1>
 
-                    <form  className="mt-6">
+                    <form className="mt-6">
                       <div className="flex-1">
-                        <label className="block mb-2 text-sm text-gray-600 dark:text-gray-200">
+                        <label className="block mb-2 text-sm font-semibold text-gray-600 ">
                           Full Name
                         </label>
                         <input
                           name="name"
                           type="text"
                           placeholder="John Doe"
-                          className="block w-full px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-md dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-pink-700 dark:focus:border-pink-700 focus:ring-pink-700 focus:outline-none focus:ring focus:ring-opacity-40"
+                          className="block w-full px-5 py-3 mt-2 text-gray-700  bg-white border border-gray-200 rounded-md  dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-pink-700 dark:focus:border-pink-700 focus:ring-pink-700 focus:outline-none focus:ring focus:ring-opacity-40"
                         />
                       </div>
 
                       <div className="flex-1 mt-6">
-                        <label className="block mb-2 text-sm text-gray-600 dark:text-gray-200">
+                        <label className="block mb-2 text-sm text-gray-600 font-semibold ">
                           Email address
                         </label>
                         <input
                           name="email"
                           type="email"
                           placeholder="johndoe@example.com"
-                          className="block w-full px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-md dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-pink-700 dark:focus:border-pink-700 focus:ring-pink-700 focus:outline-none focus:ring focus:ring-opacity-40"
+                          className="block w-full px-5 py-3 mt-2 text-gray-900 placeholder-gray-400 bg-white border border-gray-200 rounded-md dark:bg-gray-900 dark:text-gray-900 dark:border-gray-700 focus:border-pink-700 dark:focus:border-pink-700 focus:ring-pink-700 focus:outline-none focus:ring focus:ring-opacity-40"
                         />
                       </div>
 
                       <div className="w-full mt-6">
-                        <label className="block mb-2 text-sm text-gray-600 dark:text-gray-200">
+                        <label className="block mb-2 text-sm text-gray-600 dark:text-gray-600 font-semibold">
                           Message
                         </label>
                         <textarea
                           name="message"
-                          className="block w-full h-32 px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-md md:h-48 dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-pink-700 dark:focus:border-pink-700 focus:ring-pink-700 focus:outline-none focus:ring focus:ring-opacity-40"
+                          className="block w-full h-32 px-5 py-3 mt-2 text-gray-700  bg-white border border-gray-200 rounded-md md:h-48 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-pink-700 dark:focus:border-pink-700 focus:ring-pink-700 focus:outline-none focus:ring focus:ring-opacity-40"
                           placeholder="Message"
                         ></textarea>
                       </div>
