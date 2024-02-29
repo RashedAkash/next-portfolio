@@ -2,6 +2,7 @@ import Link from 'next/link';
 import { FaGlobe, FaLocationArrow, FaMailBulk, FaPhone } from "react-icons/fa";
 import FooterTitle from './FooterTitle';
 import Title from './Title';
+import Image from 'next/image';
 
 const Footer = () => {
   return (
@@ -36,6 +37,9 @@ const Footer = () => {
               <img src={telegram} alt="" />
               <img src={be} alt="" />
               <img src={dribbble} alt="" /> */}
+              <Image src="/Linkedin.png" alt="l" width={20} height={20} />
+              <Image src="/telegram.png" alt="l" width={20} height={20} />
+              <Image src="/Behance.png" alt="l" width={20} height={20} />
             </div>
           </aside>
           <nav>
@@ -107,7 +111,7 @@ const Footer = () => {
           <aside>
             <p className=" text-[14px] text-[#64656D] flex items-center ">
               {" "}
-              <span className=" text-[18px]">©</span> Copyright 2023 © Built &
+              <span className=" text-[18px]">©</span> Copyright 2024 © Built &
               Designed by. Md.Rashed Hossain
             </p>
           </aside>
