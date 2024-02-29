@@ -3,12 +3,14 @@ import Contact from '@/components/Contact';
 import Banner from '@/components/Banner';
 import MySkills from '@/components/MySkills';
 import Experience from '@/components/Experience';
+import Project from '@/components/Project';
 
 
 const page = () => {
   return (
     <div>
-    <Banner />
+      <Banner />
+      <Project />
       <About />
       <Experience />
       <Contact />
