@@ -1,10 +1,11 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import React from 'react';
 
 const Banner = () => {
   return (
     <div>
-      <header className=" dark:bg-[#F8F9FC]">
+      <header className=" dark:bg-white">
         <div className="container px-6 py-16 mx-auto">
           <div className="items-center lg:flex">
             <div className="w-full lg:w-1/2">
@@ -21,14 +22,19 @@ const Banner = () => {
                   create exceptional online experiences.”
                 </p>
 
-                <button className="w-full px-5 py-2 mt-6 text-sm tracking-wider text-white uppercase transition-colors duration-300 transform bg-pink-700 rounded-lg lg:w-auto hover:bg-blue-500 focus:outline-none focus:bg-blue-500">
-                  Download Resume
-                </button>
+                <div >
+                  <a href="">
+                    <button className="w-full px-5 py-2 mt-6 text-sm tracking-wider text-white uppercase transition-colors duration-300 transform bg-pink-700 rounded-lg lg:w-auto hover:bg-blue-500 focus:outline-none focus:bg-blue-500">
+                      Download Resume
+                    </button>
+                  </a>
+                 
+                </div>
               </div>
             </div>
 
             <div className="flex items-center justify-center w-full mt-6 lg:mt-0 lg:w-1/2">
-              <div className='border-2 border-pink-700 rounded-full p-10'>
+              <div className="border-2 border-pink-700 rounded-full p-10">
                 <Image
                   src="/md.png"
                   alt="me"

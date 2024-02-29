@@ -5,24 +5,68 @@ const About = () => {
   return (
     <header className=" dark:bg-[#F8F9FC]">
       <div className="container px-6 py-16 mx-auto">
-        <div className="items-center lg:flex">
+        <div className="items-center lg:flex gap-7">
           <div className="w-full lg:w-1/2">
             <div className="lg:max-w-lg">
-              <h1 className="text-3xl font-semibold text-[#000]  lg:text-4xl">
-                Hello! I am <br />{" "}
-                <span className="text-pink-700 ">Rashed Hossain</span>
-              </h1>
-
-              <p className="mt-3 text-gray-600 dark:text-gray-700">
-                “Emerging web developer with good fundamentals, turning design
-                into user-friendly websites. Committed to delivering visually
-                appealing solutions. Eager to apply skills, collaborate, and
-                create exceptional online experiences.”
-              </p>
-
-              <button className="w-full px-5 py-2 mt-6 text-sm tracking-wider text-white uppercase transition-colors duration-300 transform bg-pink-700 rounded-lg lg:w-auto hover:bg-blue-500 focus:outline-none focus:bg-blue-500">
-                Download Resume
-              </button>
+              <div className="collapse collapse-arrow bg-base-200">
+                <input type="radio" name="my-accordion-2" defaultChecked />
+                <div className="collapse-title text-xl text-pink-700 font-medium">
+                  Next js
+                </div>
+                <div className="collapse-content">
+                  <p>
+                    Next.js offers a powerful set of features and optimizations
+                    that make it a preferred choice for building modern web
+                    applications with React, particularly those that require
+                    server-side rendering or static site generation
+                    capabilities. Its simplicity, performance benefits, and
+                    seamless integration with the React ecosystem have
+                    contributed to its widespread adoption in the development
+                    community.
+                  </p>
+                </div>
+              </div>
+              <div className="collapse collapse-arrow bg-base-200">
+                <input type="radio" name="my-accordion-2" />
+                <div className="collapse-title text-xl text-pink-700 font-medium">
+                  JavaScript
+                </div>
+                <div className="collapse-content">
+                  <p>
+                    JavaScript is a versatile programming language commonly used
+                    for web development. At its core, JavaScript revolves around
+                    the concept of variables, which act as containers for
+                    storing different types of data. Functions are blocks of
+                    code that perform specific tasks and can be reused
+                    throughout a program. Arrays are used to store multiple
+                    values, while conditional statements, such as if, else if,
+                    and else, enable developers to execute different code blocks
+                    based on specific conditions. Loops, such as for and while,
+                    allow for repetitive execution of code until a certain
+                    condition is met. Objects are key-value pairs that represent
+                    complex data structures, offering a way to organize and
+                    manipulate data efficiently. Understanding these fundamental
+                    concepts is crucial for building dynamic and interactive web
+                    applications with JavaScript.
+                  </p>
+                </div>
+              </div>
+              <div className="collapse collapse-arrow bg-base-200">
+                <input type="radio" name="my-accordion-2" />
+                <div className="collapse-title text-pink-700 text-xl font-medium">
+                  React js
+                </div>
+                <div className="collapse-content">
+                  <p>
+                    React.js, often referred to simply as React, is an
+                    open-source JavaScript library maintained by Facebook for
+                    building user interfaces (UIs) and single-page applications.
+                    It's known for its declarative and component-based approach,
+                    which allows developers to create reusable UI components and
+                    manage their state efficiently.{" "}
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
 
