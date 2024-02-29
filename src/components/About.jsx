@@ -35,11 +35,18 @@ const About = () => {
                   width={300}
                   height={300}
                   className="rounded-xl"
+                  style={{
+                    width: "auto",
+                    height: "auto",
+                  }}
                 />
               </figure>
               <div className="card-body items-center text-center">
                 <h2 className="card-title font-bold">Education</h2>
-                <p className=' font-medium'>BBA in Accounting <br /> National University <br /> [2017-2022]</p>
+                <p className=" font-medium">
+                  BBA in Accounting <br /> National University <br />{" "}
+                  [2017-2022]
+                </p>
               </div>
             </div>
           </div>
