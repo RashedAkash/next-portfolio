@@ -22,10 +22,10 @@ const Project = () => {
           <h2 className="card-title">EventLab!</h2>
           <p>If a dog chews shoes whose shoes does he choose?</p>
           <div className="card-actions justify-between">
-            <a href="">
+            <a href="https://design-agency-alpha.vercel.app/">
               <button className="btn text-white bg-pink-700">Live link</button>
             </a>
-            <a href="">
+            <a href="https://github.com/RashedAkash/design-agency">
               <button className="btn border border-pink-700">Code link</button>
             </a>
           </div>
@@ -49,10 +49,10 @@ const Project = () => {
           <h2 className="card-title">EventLab!</h2>
           <p>If a dog chews shoes whose shoes does he choose?</p>
           <div className="card-actions justify-between">
-            <a href="">
+            <a href="https://portfolio-1bac8.web.app/">
               <button className="btn text-white bg-pink-700">Live link</button>
             </a>
-            <a href="">
+            <a href="https://github.com/RashedAkash/webWhiz">
               <button className="btn border border-pink-700">Code link</button>
             </a>
           </div>
@@ -76,16 +76,71 @@ const Project = () => {
           <h2 className="card-title">EventLab!</h2>
           <p>If a dog chews shoes whose shoes does he choose?</p>
           <div className="card-actions justify-between">
-            <a href="">
+            <a href="https://event-lab-551ad.web.app/">
               <button className="btn text-white bg-pink-700">Live link</button>
             </a>
-            <a href="">
+            <a href="https://github.com/RashedAkash/event-lab">
               <button className="btn border border-pink-700">Code link</button>
             </a>
           </div>
         </div>
       </div>
       {/* project-4 */}
+      <div className="card card-compact  bg-base-100 shadow-xl">
+        <figure>
+          <Image
+            src="/fitnesspng.png"
+            alt="ft"
+            width={350}
+            height={300}
+            style={{
+              width: "auto",
+              height: "auto",
+            }}
+          />
+        </figure>
+        <div className="card-body">
+          <h2 className="card-title">EventLab!</h2>
+          <p>If a dog chews shoes whose shoes does he choose?</p>
+          <div className="card-actions justify-between">
+            <a href="https://fitness-b1aa9.web.app/">
+              <button className="btn text-white bg-pink-700">Live link</button>
+            </a>
+            <a href="https://github.com/RashedAkash/fitness-gym">
+              <button className="btn border border-pink-700">Code link</button>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      {/* project-5 */}
+      <div className="card card-compact  bg-base-100 shadow-xl">
+        <figure>
+          <Image
+            src="/fruit.png"
+            alt="fr"
+            width={350}
+            height={300}
+            style={{
+              width: "auto",
+              height: "auto",
+            }}
+          />
+        </figure>
+        <div className="card-body">
+          <h2 className="card-title">EventLab!</h2>
+          <p>If a dog chews shoes whose shoes does he choose?</p>
+          <div className="card-actions justify-between">
+            <a href="https://rashedakash.github.io/fruit-brust/">
+              <button className="btn text-white bg-pink-700">Live link</button>
+            </a>
+            <a href="https://github.com/RashedAkash/fruit-brust">
+              <button className="btn border border-pink-700">Code link</button>
+            </a>
+          </div>
+        </div>
+      </div>
+      {/* project-6 */}
       <div className="card card-compact  bg-base-100 shadow-xl">
         <figure>
           <Image
@@ -107,60 +162,6 @@ const Project = () => {
               <button className="btn text-white bg-pink-700">Live link</button>
             </a>
             <a href="https://github.com/RashedAkash/flower-shop">
-              <button className="btn border border-pink-700">Code link</button>
-            </a>
-          </div>
-        </div>
-      </div>
-      {/* project-5 */}
-      <div className="card card-compact  bg-base-100 shadow-xl">
-        <figure>
-          <Image
-            src="/fruit.png"
-            alt="fr"
-            width={350}
-            height={300}
-            style={{
-              width: "auto",
-              height: "auto",
-            }}
-          />
-        </figure>
-        <div className="card-body">
-          <h2 className="card-title">EventLab!</h2>
-          <p>If a dog chews shoes whose shoes does he choose?</p>
-          <div className="card-actions justify-between">
-            <a href="">
-              <button className="btn text-white bg-pink-700">Live link</button>
-            </a>
-            <a href="">
-              <button className="btn border border-pink-700">Code link</button>
-            </a>
-          </div>
-        </div>
-      </div>
-      {/* project-6 */}
-      <div className="card card-compact w-96 bg-base-100 shadow-xl">
-        <figure>
-          <Image
-            src="/fitnesspng.png"
-            alt="ft"
-            width={350}
-            height={300}
-            style={{
-              width: "auto",
-              height: "auto",
-            }}
-          />
-        </figure>
-        <div className="card-body">
-          <h2 className="card-title">EventLab!</h2>
-          <p>If a dog chews shoes whose shoes does he choose?</p>
-          <div className="card-actions justify-between">
-            <a href="">
-              <button className="btn text-white bg-pink-700">Live link</button>
-            </a>
-            <a href="">
               <button className="btn border border-pink-700">Code link</button>
             </a>
           </div>
