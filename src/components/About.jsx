@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import React from 'react';
 
 const About = () => {
@@ -26,11 +27,21 @@ const About = () => {
           </div>
 
           <div className="flex items-center justify-center w-full mt-6 lg:mt-0 lg:w-1/2">
-            <img
-              className="w-full h-full lg:max-w-3xl"
-              src="https://merakiui.com/images/components/Catalogue-pana.svg"
-              alt="Catalogue-pana.svg"
-            />
+            <div className="card  bg-base-100 shadow-xl">
+              <figure className="px-10 pt-10">
+                <Image
+                  src="https://plus.unsplash.com/premium_photo-1682125773446-259ce64f9dd7?q=80&w=1471&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                  alt="book"
+                  width={300}
+                  height={300}
+                  className="rounded-xl"
+                />
+              </figure>
+              <div className="card-body items-center text-center">
+                <h2 className="card-title font-bold">Education</h2>
+                <p className=' font-medium'>BBA in Accounting <br /> National University <br /> [2017-2022]</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
