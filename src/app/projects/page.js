@@ -1,9 +1,14 @@
 import Project from '@/components/Project';
-import React from 'react';
+
+
+export const metadata = {
+  title: "Projects",
+  description: "This is Projects page",
+};
 
 const page = () => {
   return (
-    <div>
+    <div className=' py-20'>
      <Project />
     </div>
   );

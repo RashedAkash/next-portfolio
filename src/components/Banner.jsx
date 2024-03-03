@@ -1,10 +1,10 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import React from 'react';
+
 
 const Banner = () => {
   return (
-    <div>
+    <div className='py-10'>
       <header className=" dark:bg-white">
         <div className="container px-6 py-16 mx-auto">
           <div className="items-center lg:flex">

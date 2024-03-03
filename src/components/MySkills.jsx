@@ -1,10 +1,14 @@
 import Image from "next/image";
 import Marquee from "react-fast-marquee";
+import SectionTitle from "./SectionTitle";
 
 
 const MySkills = () => {
   return (
     <div>
+      <div className=" text-center md:text-left">
+        <SectionTitle text="My skills" />
+      </div>
       <Marquee className=" ">
         <Image
           className=" mx-5"

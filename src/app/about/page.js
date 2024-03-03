@@ -1,9 +1,13 @@
 import About from '@/components/About';
-import React from 'react';
+
+export const metadata = {
+  title: "About",
+  description: "This is about page",
+};
 
 const page = () => {
   return (
-    <div>
+    <div className=' py-16'>
       <About />
     </div>
   );

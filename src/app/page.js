@@ -5,7 +5,10 @@ import MySkills from '@/components/MySkills';
 import Experience from '@/components/Experience';
 import Project from '@/components/Project';
 
-
+export const metadata = {
+  title: "Home",
+  description: "This is Home page",
+};
 const page = () => {
   return (
     <div>

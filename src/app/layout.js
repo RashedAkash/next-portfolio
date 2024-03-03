@@ -22,9 +22,11 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" data-theme="light">
       <body className={`${inter.variable} ${roboto_mono.variable}`}>
-        <Navbar />
-        <div className=" max-w-5xl mx-auto">{children}</div>
-        <Footer />
+        <div className=" max-w-6xl mx-auto">
+          <Navbar />
+          <div>{children}</div>
+          <Footer />
+        </div>
       </body>
     </html>
   );
